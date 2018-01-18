@@ -22,9 +22,10 @@ After Instancing the class you can get the generated html object by callind func
 
 
 
-
+```php
 $LTable = new LTable;
 
 $expression = "~( A | B ) > C";
 
 $table->with($expression)->get(); // this will generate a HTML <table> in String format
+```
