@@ -6,15 +6,15 @@ Logical Operators Alowed are:
 
 
   
-  AND ( & )
+  > AND ( & )
   
-  OR ( | )
+  > OR ( | )
   
-  IF THEN ( > )
+  > IF THEN ( > )
   
-  ONLI IF ( = )
+  > ONLI IF ( = )
   
-  NOT ( ~ )
+  > NOT ( ~ )
   
   
   
