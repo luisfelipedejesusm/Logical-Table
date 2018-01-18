@@ -301,7 +301,7 @@ class LTable {
 		foreach (str_split($this->exp) as $key => $char) {
 			if(preg_match('/^[a-zA-Z]+$/', $char) == 1){
 				if ($key > 0 && str_split($this->exp)[$key-1] == '~') 
-					if (!in_array($char, $this->vars_negative)) 
+					if (!in_array("~$char", $this->vars_negative)) 
 						array_push($this->vars_negative, "~$char");
 			}
 		}
