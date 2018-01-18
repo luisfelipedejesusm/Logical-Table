@@ -1,4 +1,4 @@
-# Logical-Table
+# Logical-Table Alpha
 
 This is a simple class to generate Logical Tables given a Logical Expression.
 
@@ -18,7 +18,7 @@ Logical Operators Alowed are:
   
   
   
-After Instancing the class you can get the generated html object by callind function with() where you will insert your expression and then get()
+After Instancing the class you can get the generated html object by calling function with() where you will insert your expression and then get()
 
 
 
